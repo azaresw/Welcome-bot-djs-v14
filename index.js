@@ -1,6 +1,7 @@
 const { Client, GatewayIntentBits, EmbedBuilder, SlashCommandBuilder, REST, Routes, PermissionsBitField } = require("discord.js");
 const fs = require("fs");
 const config = require("./config.json");
+
 // ⭐ CREDITS: AZARESW | GITHUB: https://github.com/azaresw/Welcome-bot-djs-v14
 // ⭐ DISCORD: https://dsc.gg/azeydev | SUPPORT, UPDATES, CUSTOM BOTS 
 const client = new Client({
