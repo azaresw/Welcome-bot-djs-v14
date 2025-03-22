@@ -41,3 +41,6 @@ A powerful and customizable Discord bot for managing welcome messages and embeds
 
 ## Contributing  
 Pull requests are welcome! Feel free to submit bug reports and feature suggestions.  
+
+## Need Support
+join my server https://dsc.gg/azeydev for support
