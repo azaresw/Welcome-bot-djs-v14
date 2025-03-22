@@ -62,37 +62,30 @@ const commands = [
     .setName("setwelcome")
     .setDescription("Set the welcome channel")
     .addChannelOption(option => option.setName("channel").setDescription("Select the welcome channel").setRequired(true)),
-
   new SlashCommandBuilder()
     .setName("setwelcomemsg")
     .setDescription("Set the welcome message")
     .addStringOption(option => option.setName("message").setDescription("Welcome message with placeholders").setRequired(true)),
-
   new SlashCommandBuilder()
     .setName("setwelcomecolor")
     .setDescription("Set the welcome embed color")
     .addStringOption(option => option.setName("color").setDescription("HEX color code").setRequired(true)),
-
   new SlashCommandBuilder()
     .setName("setwelcomeimage")
     .setDescription("Set the welcome embed image")
     .addStringOption(option => option.setName("image").setDescription("Image URL").setRequired(true)),
-
   new SlashCommandBuilder()
     .setName("setdmwelcome")
     .setDescription("Set the DM welcome message")
     .addStringOption(option => option.setName("message").setDescription("DM message with placeholders").setRequired(true)),
-
   new SlashCommandBuilder()
     .setName("setdmcolor")
     .setDescription("Set the DM embed color")
     .addStringOption(option => option.setName("color").setDescription("HEX color code").setRequired(true)),
-
   new SlashCommandBuilder()
     .setName("setdmimage")
     .setDescription("Set the DM welcome image")
     .addStringOption(option => option.setName("image").setDescription("Image URL").setRequired(true)),
-
   new SlashCommandBuilder()
     .setName("welcomeconfig")
     .setDescription("Show current welcome settings"),
