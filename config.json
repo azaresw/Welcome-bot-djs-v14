@@ -1,0 +1,3 @@
+{
+  "TOKEN": "TOKEN_HERE / USE .env if using replit and edit the bottom of index to process.env.token"
+}
