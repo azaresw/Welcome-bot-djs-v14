@@ -21,7 +21,7 @@ A powerful and customizable Discord bot for managing welcome messages and embeds
 ## Installation  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/YOUR_GITHUB/discord-welcome-bot.git
+   git clone https://github.com/azaresw/Welcome-bot-djs-v14.git
    cd discord-welcome-bot
    ```  
 2. Install dependencies:  
