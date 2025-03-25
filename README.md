@@ -1,28 +1,33 @@
-# Welcome-bot-djs-v14
-A powerful and customizable Discord bot for managing welcome messages and embeds. This bot allows server administrators to configure welcome messages, embed colors, images, and even direct messages for new members.  
+# Music-Bot-djs-v14
+A powerful and customizable Discord music bot using Discord.js v14. This bot allows users to play, control, and manage music playback in a server with an easy-to-use slash command interface.
 
 ## Features  
-✅ Set a custom welcome message with placeholders (`{user}`, `{server}`, `{membercount}`)  
-✅ Configure an embed with a title, color, and image  
-✅ Send personalized welcome messages via direct messages  
-✅ Slash command support for easy configuration  
-✅ Stores settings per server using JSON  
+✅ Play music from YouTube and other sources  
+✅ Supports queue management (add, remove, shuffle, loop)  
+✅ Pause, resume, and seek functionality  
+✅ Displays current playing track information  
+✅ Adjustable volume control  
+✅ Slash command support for easy interaction  
+✅ Stores queue per server using JSON  
 
 ## Commands  
-- `/setwelcome <channel>` – Set the welcome message channel  
-- `/setwelcomemsg <message>` – Customize the welcome message  
-- `/setwelcomecolor <color>` – Set the embed color (HEX)  
-- `/setwelcomeimage <image_url>` – Set the embed image  
-- `/setdmwelcome <message>` – Set a DM welcome message  
-- `/setdmcolor <color>` – Set the DM embed color  
-- `/setdmimage <image_url>` – Set the DM embed image  
-- `/welcomeconfig` – View current welcome settings  
+- `/play <query>` – Play a song  
+- `/skip` – Skip the current song  
+- `/stop` – Stop the music and clear the queue  
+- `/pause` – Pause the current song  
+- `/resume` – Resume the paused song  
+- `/queue` – View the current queue  
+- `/np` – Show now playing song  
+- `/volume <amount>` – Set the volume (1-150)  
+- `/shuffle` – Shuffle the queue  
+- `/loop <mode>` – Loop the current song or queue (Track/Queue/Off)  
+- `/seek <seconds>` – Seek to a specific time in the song    
 
 ## Installation  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/azaresw/Welcome-bot-djs-v14.git
-   cd discord-welcome-bot
+   git clone https://github.com/azaresw/Music-Bot-djs-v14.git
+   cd discord-music-bot
    ```  
 2. Install dependencies:  
    ```bash
@@ -42,5 +47,6 @@ A powerful and customizable Discord bot for managing welcome messages and embeds
 ## Contributing  
 Pull requests are welcome! Feel free to submit bug reports and feature suggestions.  
 
-## Need Support
-join my server https://dsc.gg/azeydev for support
+## Need Support  
+Join my server [here](https://dsc.gg/azeydev) for support.
+
